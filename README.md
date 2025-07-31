@@ -1,7 +1,39 @@
 
-# **SQL Retail Sales Analysis**
+# **Retail Sales Analysis**
+
+This SQL-based project analyzes retail sales data to uncover actionable business insights. The project includes a comprehensive dataset with key attributes such as transaction details, customer demographics, product categories, and sales metrics. Through data cleaning, exploration, and targeted queries, the project addresses critical business questions to drive strategic decision-making.
+
+## **Key Features**
+
+**1.Database Setup:** Creates a retail_sales table to store transaction data, including transaction_id, sale_date, sale_time, customer_id, gender, age, category, quantity, price_per_unit, cogs, and total_sale.
+
+**2.Data Cleaning:** Identifies and removes records with missing values to ensure data integrity.
+Data Exploration: Provides an overview of total sales, unique customers, and product categories.
+
+**3.Business Insights:** Answers key questions, including:
+(i). Sales on a specific date (e.g., '2022-11-05').
+(ii). Transactions for specific categories with quantity filters (e.g., 'Clothing' with quantity ≥ 4 in Nov-2022).
+(iii). Total sales and order counts by category.
+(iv). Average customer age for 'Beauty' category purchases.
+(v). High-value transactions (total_sale > 1000).
+(vi). Transaction counts by gender and category.
+(vii). Average sales per month and identification of the best-selling month per year.
+(viii). Top 5 customers by total sales.
+(ix). Unique customers per category.
+(x). Order distribution across shifts (Morning, Afternoon, Evening).
 
 
+
+## **Technologies Used**
+
+SQL (Database creation, querying, and analysis)
+Aggregation functions, window functions (RANK), and time-based extractions
+
+## **Purpose**
+
+This project demonstrates proficiency in SQL for data cleaning, exploration, and business analysis. It provides a framework for retail businesses to analyze sales trends, customer behavior, and operational performance, making it ideal for data analysts and business intelligence professionals.
+
+## **CODE**
 CREATE DATABASE Retail_Sales_Project;
 
 ```sql
