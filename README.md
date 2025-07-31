@@ -1,4 +1,4 @@
-#-- SQL Retail Sales Analysis 
+##SQL Retail Sales Analysis 
 CREATE DATABASE Retail_Sales_Project;
 
 
@@ -57,7 +57,7 @@ WHERE
     OR
     total_sale IS NULL;
     
--- 
+
 DELETE FROM retail_sales
 WHERE 
     transaction_id IS NULL
@@ -76,7 +76,7 @@ WHERE
     OR
     total_sale IS NULL;
     
-#-- Data Exploration
+##Data Exploration
 
 -- How many sales we have?
 SELECT COUNT(*) as total_sale FROM retail_sales
@@ -90,7 +90,7 @@ SELECT COUNT(DISTINCT customer_id) as total_sale FROM retail_sales
 SELECT DISTINCT category FROM retail_sales
 
 
-#-- Data Analysis & Business Key Problems & Answers
+##Data Analysis & Business Key Problems & Answers
 
  -- Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05
 
